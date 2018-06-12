@@ -22,3 +22,6 @@
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+.foodcontainer {
+  margin-top: 1rem; }
