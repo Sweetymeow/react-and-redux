@@ -1,0 +1,41 @@
+{
+  "allBeautyItems": [{
+      "name": "Olay Regenerist Whip Face Moisturizer",
+      "date": "2018-01-24",
+      "purchased": false,
+      "brand": "Olay",
+      "price": "29.99",
+      "currency": "usd",
+      "link": "https://www.olay.com/en-us/skin-care-products/olay-regenerist-whip-face-moisturizer"
+
+    },
+    {
+      "name": "Olay Luminous Whip Face Moisturizer",
+      "date": "2018-01-24",
+      "purchased": false,
+      "brand": "Olay",
+      "price": "29.99",
+      "currency": "usd",
+      "link": "https://www.olay.com/en-us/skin-care-products/olay-luminous-whip-face-moisturizer",
+      "INGREDIENTS": [
+        "Water", "Vinyl Dimethicone / Methicone Silsesquioxane Crosspolymer", "Glycerin", "Niacinamide", "Isohexadecane", "Isopropyl Isostearate", "Panthenol", "Camellia Sinensis Leaf Extract", "Dimethicone", "Stearyl Alcohol", "Sodium Polyacrylate Starch", "Cetyl Alcohol", "Caprylyl Glycol", "1,2-Hexanediol", "Phenoxyethanol", "Inositol", "Behenyl Alcohol", "Dimethiconol", "PEG - 100 Stearate", "Fragrance",
+        "Cetearyl Glucoside", "Cetearyl Alcohol", "Stearic Acid", "Palmitic Acid", "BHT", "Disodium EDTA", "Zinc Gluconate", "Magnesium Aspartate", "Copper Gluconate", "Isohexadecane", "Emollient"
+      ]
+    },
+    {
+      "name": "Olay Total Effects Whip Face Moisturizer",
+      "date": "2018-01-24",
+      "purchased": false,
+      "brand": "Olay",
+      "price": "29.99",
+      "currency": "usd",
+      "link": "https://www.olay.com/en-us/skin-care-products/olay-total-effects-whip-face-moisturizer"
+    }
+  ],
+  "goal": 10,
+  "error": [],
+  "brandNames": {
+    "fetching": false,
+    "suggestions": ["Olay", "Clarins", "PETER THOMAS ROTH", "CLINIQUE"]
+  }
+}
