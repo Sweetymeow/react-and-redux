@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Counter from './Counter.js';
 import C from './redux/constants.js';
 import { allBeautyItems, goal } from './redux/initialState';
-import { goalReducer, productReducer } from './store/reducers.js';
+import { goalReducer, productReducer, errorReducer } from './store/reducers.js';
 
 const style = {
   margin: '20px'
@@ -21,6 +21,10 @@ const exportConstantsStatus = () => {
 };
 
 const state = allBeautyItems;
+const errorState = [
+  "user not authorized",
+  "server feed not found"
+];
 
 const goalAction = {
   type: C.SET_GOAL,
@@ -38,17 +42,25 @@ const action = {
     "link": "https://www.laroche-posay.us/redermic-r-with-retinol-3337872413063.html?cgid=anti-aging-serum#start=1"
   }
 }
+const addErrorAction = {
+  type: C.ADD_ERROR,
+  payload: "404: Can't connect to server"
+};
+const clearErrorAction = {
+  type: C.CLEAR_ERROR,
+  payload: "server feed not found"
+};
 
 const nextGoal = goalReducer(10 , goalAction); // initState
 const nextState = productReducer(state, action);
+const nextErrorState = errorReducer(errorState, clearErrorAction);
 
 console.log(`
   init goal 10 to nextGoal: ${nextGoal}
   ---------***-----------
-  initial state.length: ${state.length}
-  action: ${JSON.stringify(action)}
+  initial error: ${JSON.stringify(errorState)}
   ==================================
-  next state.length: ${JSON.stringify(nextState)}
+  next error state: ${JSON.stringify(nextErrorState)}
 `);
 
 class ControlPanel extends Component {
