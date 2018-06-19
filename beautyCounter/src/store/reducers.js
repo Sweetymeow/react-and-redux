@@ -1,13 +1,14 @@
 import C from '../redux/constants';
+import { combineReducers } from 'redux';
 
-export const goalReducer = (state = 10, action) =>
+export const goal = (state = 10, action) =>
   (action.type === C.SET_GOAL) ? parseInt(action.payload, 10) : state;
 
-export const productReducer = (state = null, action) =>
-  (action.type === C.ADD_ITEM) ? [...state, action.payload] : state;
+// export const products = (state = null, action) =>
+//   (action.type === C.ADD_ITEM) ? [...state, action.payload] : state;
 // return typeof state === "object" ? state.push(action.payload) : action.payload;
 
-export const errorReducer = (state = null, action) => {
+export const error = (state = null, action) => {
   switch(action.type){
     case C.ADD_ERROR:
       return [...state, action.payload] // return new array with
@@ -27,6 +28,16 @@ export const fetching = (state = null, action) => {
       return state;
   }
 }
+export const suggestions = (state = [], action) => {
+  switch(action.type) {
+      case C.CLEAR_SUGGESTIONS :
+        return []
+      case C.CHANGE_SUGGESTIONS :
+        return action.payload
+      default :
+        return state
+    }
+}
 
 export const allProducts = (state = [], action) => {
   switch(action.type){
@@ -39,3 +50,13 @@ export const allProducts = (state = [], action) => {
       return state;
   }
 }
+
+export default combineReducers({
+  allProducts,
+  goal,
+  error,
+  brandNames: combineReducers({
+    fetching,
+    suggestions
+  })
+})

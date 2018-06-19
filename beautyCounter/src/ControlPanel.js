@@ -1,40 +1,32 @@
 import React, { Component } from 'react';
 import expect from 'expect';
+import { createStore } from 'redux';
 import Counter from './Counter.js';
-import ACTIONS from './redux/actions';
-import { allBeautyItems, goal, error, fetch } from './redux/initialState';
-import { goalReducer, allProducts, errorReducer, fetching } from './store/reducers.js';
+import actions from './redux/actions';
+import initialState from './redux/initialState';
+import appReducer from './store/reducers.js';
 
 const style = {
   margin: '20px'
 };
 
-const nextGoal = goalReducer(10 , ACTIONS.goal); // initState
-const nextState = allProducts(allBeautyItems, ACTIONS.addProduct); // ACTIONS.removeProduct
-// const nextErrorState = errorReducer(error, ACTIONS.clearError);
-const nextFetchResortState = fetching(fetch.resortInit, ACTIONS.fetchResort);
-const nextCancelFetchState = fetching(fetch.clearInit, ACTIONS.cancelFetch);
-expect(nextFetchResortState).toEqual(true);
-expect(nextCancelFetchState).toEqual(false);
+const store  = createStore(appReducer);
+console.log(`initial state =>`, store.getState());
 
-console.log(`
-  ---------***-----------
-  Challenge A: FETCH_RESORT_NAMES PASSED!!!
-  result -> ${nextFetchResortState}
-  ==================================
-  Challenge B: CANCEL_FETCHING PASSED!!!
-  result -> ${nextCancelFetchState}
-  ==================================
+store.dispatch(actions.addProduct);
+console.log(`next state => `, store.getState() );
 
-  ==================================
-`);
+// const nextGoal = goalReducer(goal , actions.goal); // initState
 // console.log(`
-//   init goal 10 to nextGoal: ${nextGoal}
 //   ---------***-----------
-//   initial product length: ${allBeautyItems.length}
+//   Challenge A: FETCH_RESORT_NAMES PASSED!!!
+//   result -> ${nextFetchResortState}
 //   ==================================
-//   next product state - ${nextState.length} products:
-//   ## ${JSON.stringify(nextState)}
+//   Challenge B: CANCEL_FETCHING PASSED!!!
+//   result -> ${nextCancelFetchState}
+//   ==================================
+//
+//   ==================================
 // `);
 
 class ControlPanel extends Component {
