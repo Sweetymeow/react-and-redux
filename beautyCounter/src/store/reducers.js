@@ -17,6 +17,16 @@ export const errorReducer = (state = null, action) => {
       return state;
   }
 }
+export const fetching = (state = null, action) => {
+  switch(action.type){
+    case C.FETCH_BRAND_NAMES:
+      return action.payload // true
+    case C.CANCEL_FETCHING:
+      return action.payload // false
+    default:
+      return state;
+  }
+}
 
 export const allProducts = (state = [], action) => {
   switch(action.type){

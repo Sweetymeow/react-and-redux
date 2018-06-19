@@ -33,7 +33,14 @@
     }
   ],
   "goal": 10,
-  "error": [],
+  "error": [
+    "user not authorized",
+    "server feed not found"
+  ],
+  "fetch": {
+    "resortInit": false,
+    "clearInit": true
+  },
   "brandNames": {
     "fetching": false,
     "suggestions": ["Olay", "Clarins", "PETER THOMAS ROTH", "CLINIQUE"]
