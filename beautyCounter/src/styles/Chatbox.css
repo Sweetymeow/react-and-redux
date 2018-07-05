@@ -1,0 +1,7 @@
+.chatbox-container {
+  margin: 10vh auto;
+  max-width: 90vw;
+  height: 80vh;
+  border-radius: 9px;
+  background-color: pink;
+  box-shadow: -1px 2px 28px 1px rgba(155, 155, 155, 0.35); }
