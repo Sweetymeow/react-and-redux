@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="900px" viewBox="0 0 51 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_c4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design---Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web---Intro_exp" transform="translate(-420.000000, 0.000000)">
+            <g id="bg_c4" transform="translate(420.400000, 0.000000)">
+                <rect id="Rectangle-25-Copy-2" stroke="#FFFFFF" x="0.5" y="0.5" width="49" height="899"></rect>
+                <g id="Zeplin" transform="translate(11.000000, 842.000000)" stroke="#4A4A4A">
+                    <ellipse id="Oval-11" transform="translate(15.000000, 12.500000) rotate(-17.000000) translate(-15.000000, -12.500000) " cx="15" cy="12.5" rx="11" ry="6.5"></ellipse>
+                    <polyline id="Path-11" points="5.051936 12 0 14.9175042 4.77533817 16.3684069 3.0596342 21 10 19.0324901"></polyline>
+                    <path d="M19.5657601,5.60104479 C18.7990009,2.80722313 17.578067,1 16.2028698,1 C13.8816889,1 12,6.14872538 12,12.5 C12,18.8512746 13.8816889,24 16.2028698,24 C17.713597,24 19.2592175,21.026856 20,17.7528207" id="Oval-12" transform="translate(16.000000, 12.500000) rotate(2.000000) translate(-16.000000, -12.500000) "></path>
+                    <path d="M20,6.58507227 C19.2470385,3.23887133 17.8745531,1 16.306258,1 C13.9279774,1 12,6.14872538 12,12.5 C12,18.8512746 13.9279774,24 16.306258,24 C17.8067926,24 19.1280724,21.9504166 19.8989661,18.8423677" id="Oval-12" transform="translate(16.000000, 12.500000) rotate(-36.000000) translate(-16.000000, -12.500000) "></path>
+                    <path d="M5,17 C14.3722926,14.220372 21.0389593,11.5537054 25,9" id="Path-12"></path>
+                </g>
+                <g id="Ae" transform="translate(16.000000, 35.000000)">
+                    <rect id="Rectangle-12" stroke="#4A4A4A" x="0.5" y="0.5" width="17" height="17" rx="3"></rect>
+                    <text font-family="BentonSans-Regular, BentonSans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="2" y="13">Ae</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

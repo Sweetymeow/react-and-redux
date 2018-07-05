@@ -1,0 +1,312 @@
+{
+    "value": [
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-31T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9874.27
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-07T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11161.829999999996
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-11T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9400.440000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-12T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9250.570000000003
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-19T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9613.860000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-23T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 8614.440000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-25T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9350.960000000003
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-29T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10131.900000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-01T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10039.330000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-08T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9773.080000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-02T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10302.650000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-08T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10194.300000000003
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-14T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11603.639999999996
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-26T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10116.100000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-11T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 14072.099999999993
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-04T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10049.310000000003
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-05T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9843.070000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-09T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 8267.540000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-15T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11241.509999999998
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-18T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 8913.190000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-21T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11940.490000000002
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-22T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9282.960000000001
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-05T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10617.030000000002
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-06T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9323.800000000008
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-10T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 13067.320000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-12T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 12559.670000000002
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-13T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11747.160000000007
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-14T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 13333.969999999998
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-10T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10886.680000000002
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-27T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 13021.460000000008
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-28T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 11924.199999999992
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-04T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 16212.830000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-06T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10674.840000000007
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-20T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 12035.680000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-15T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 8087.770000000001
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-17T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 9486.090000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-16T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10076.270000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-02T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 10810.710000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-07T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 5649.310000000002
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-09T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 12762.460000000006
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-03T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 6290.300000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-24T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 5037.750000000004
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-02-03T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 7998.950000000005
+        },
+        {
+            "@odata.type": "#bakery_sales.sales",
+            "@odata.id": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales()",
+            "CALENDAR_DATE": "2018-01-30T00:00:00Z",
+            "Total@odata.type": "#Double",
+            "Total": 4925.640000000004
+        }
+    ]
+}

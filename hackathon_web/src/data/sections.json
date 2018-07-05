@@ -1,0 +1,35 @@
+{
+  "overview": [{
+      "key": "Forecast",
+      "content": "Forecast",
+      "link": true
+    },
+    {
+      "key": "Item",
+      "content": "Overall Preview",
+      "link": true
+    }
+  ],
+  "core": [{
+      "key": "Forecast",
+      "content": "Forecast",
+      "link": true
+    },
+    {
+      "key": "Item",
+      "content": "Core Items",
+      "link": true
+    }
+  ],
+  "list": [{
+      "key": "Forecast",
+      "content": "Forecast",
+      "link": true
+    },
+    {
+      "key": "Item",
+      "content": "Item List",
+      "link": true
+    }
+  ]
+}

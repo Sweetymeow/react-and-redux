@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="900px" viewBox="0 0 50 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_s4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design---Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web---Intro_exp" transform="translate(-1318.000000, 0.000000)">
+            <g id="bg_s4" transform="translate(1318.000000, 0.000000)">
+                <rect id="Rectangle-25-Copy" stroke="#FFFFFF" x="0.5" y="0.5" width="49" height="899"></rect>
+                <circle id="Oval-4" fill="#71D4E2" cx="25" cy="381" r="7"></circle>
+                <polygon id="Triangle-2" fill="#FF9248" transform="translate(25.500000, 514.500000) rotate(-45.000000) translate(-25.500000, -514.500000) " points="25.5 509 34 520 17 520"></polygon>
+                <polygon id="Triangle-2" fill="#7ED321" transform="translate(25.500000, 795.500000) rotate(45.000000) translate(-25.500000, -795.500000) " points="25.5 790 34 801 17 801"></polygon>
+                <rect id="Rectangle-23" fill="#FBEF59" x="19" y="647" width="13" height="13"></rect>
+                <rect id="Rectangle-23" fill="#7ED321" x="19" y="102" width="13" height="13"></rect>
+                <path d="M19,238 L31.0945095,249.325962" id="Path-21" stroke="#3F3A3A" stroke-width="4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

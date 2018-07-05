@@ -1,0 +1,54 @@
+<!-- https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/$metadata -->
+<?xml version='1.0' encoding='UTF-8'?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="bakery_sales">
+            <EntityType Name="sales_forecast">
+                <Key>
+                    <PropertyRef Name="LOCATION_NUM"/>
+                    <PropertyRef Name="ITEM_NUM"/>
+                    <PropertyRef Name="CALENDAR_DATE"/>
+                </Key>
+                <Property Name="LOCATION_NUM" Type="Edm.Int32" Nullable="false"/>
+                <Property Name="ITEM_NUM" Type="Edm.String" Nullable="false" MaxLength="7"/>
+                <Property Name="CALENDAR_DATE" Type="Edm.DateTimeOffset" Nullable="false"/>
+                <Property Name="SALES_FORECAST" Type="Edm.Double"/>
+            </EntityType>
+            <EntityType Name="item_category">
+                <Key>
+                    <PropertyRef Name="ITEM_ID"/>
+                </Key>
+                <Property Name="ITEM_ID" Type="Edm.String" Nullable="false" MaxLength="10"/>
+                <Property Name="ITEM_NUM" Type="Edm.String" MaxLength="7"/>
+                <Property Name="ITEM_DESC_1" Type="Edm.String" MaxLength="45"/>
+                <Property Name="ITEM_DESC_2" Type="Edm.String" MaxLength="29"/>
+                <Property Name="ITEM_CATEG" Type="Edm.String" MaxLength="25"/>
+                <Property Name="ITEM_CATEGORY_DESC" Type="Edm.String" MaxLength="33"/>
+                <Property Name="DEPARTMENT_NUM" Type="Edm.String" MaxLength="34"/>
+                <Property Name="DEPARTMENT_LONG_DESC" Type="Edm.String" MaxLength="30"/>
+            </EntityType>
+            <EntityType Name="sales">
+                <Key>
+                    <PropertyRef Name="LOCATION_NUM"/>
+                    <PropertyRef Name="ITEM_NUM"/>
+                    <PropertyRef Name="CALENDAR_DATE"/>
+                </Key>
+                <Property Name="LOCATION_NUM" Type="Edm.Int32" Nullable="false"/>
+                <Property Name="ITEM_NUM" Type="Edm.String" Nullable="false" MaxLength="7"/>
+                <Property Name="CALENDAR_DATE" Type="Edm.DateTimeOffset" Nullable="false"/>
+                <Property Name="DESCRIPTION" Type="Edm.String" MaxLength="100"/>
+                <Property Name="UNIT_SALES" Type="Edm.Double"/>
+                <Property Name="REVENUE" Type="Edm.Double"/>
+                <Property Name="AVG_PRICE" Type="Edm.Double"/>
+                <NavigationProperty Name="CATEGORY" Type="bakery_sales.item_category"/>
+            </EntityType>
+            <EntityContainer Name="EntityContainer_D81A6D6A88DF4CA69E83C35ACF6D0812">
+                <EntitySet Name="sales_forecast" EntityType="bakery_sales.sales_forecast"/>
+                <EntitySet Name="item_category" EntityType="bakery_sales.item_category"/>
+                <EntitySet Name="sales" EntityType="bakery_sales.sales">
+                    <NavigationPropertyBinding Path="CATEGORY" Target="bakery_sales.EntityContainer_D81A6D6A88DF4CA69E83C35ACF6D0812/item_category"/>
+                </EntitySet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

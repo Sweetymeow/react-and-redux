@@ -1,0 +1,25 @@
+{
+  "@odata.context": "$metadata#bakery_sales.sales_forecast",
+  "value": [{
+    "LOCATION_NUM": 1,
+    "ITEM_NUM": "36996",
+    "CALENDAR_DATE": "1970-01-01T00:00:00Z",
+    "SALES_FORECAST": 128.0
+  }, {
+    "LOCATION_NUM": 2,
+    "ITEM_NUM": "36996",
+    "CALENDAR_DATE": "1970-01-01T00:00:00Z",
+    "SALES_FORECAST": 128.0
+  }, {
+    "LOCATION_NUM": 3,
+    "ITEM_NUM": "36996",
+    "CALENDAR_DATE": "1970-01-02T18:12:55Z",
+    "SALES_FORECAST": 128.0
+  }, {
+    "LOCATION_NUM": 4,
+    "ITEM_NUM": "36996",
+    "CALENDAR_DATE": "1970-01-01T00:00:00Z",
+    "SALES_FORECAST": 128.0
+  }],
+  "@odata.nextLink": "https://odata-v4.cfapps.sap.hana.ondemand.com/java/odata/v4/bakery_sales/sales_forecast?$skiptoken=1000"
+}

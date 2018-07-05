@@ -1,0 +1,8 @@
+---
+applications:
+- name: hackathon_webapp
+  memory: 512M
+  host: hackathonFE
+  instance: 1
+  services:
+  - hackathon-hdi

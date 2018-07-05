@@ -1,0 +1,188 @@
+.recharts-default-legend{
+  margin-top: 1rem;
+}
+/*------------- Sum Chart Styels -------------*/
+.recharts-legend-wrapper .recharts-default-legend .legend-item-0,
+.recharts-legend-wrapper .recharts-default-legend .legend-item-1{
+  display: none !important;
+}
+
+.sumchart-tooltip-wrapper{
+  background: white;
+  border: solid 1px #BBB;
+  box-shadow: 5px 5px 10px #CCC;
+  padding: .5rem 2rem .5rem 0rem;
+  min-width: 12rem;
+  border-radius: .4rem;
+}
+.sumchart-tooltip-wrapper .sumchart-tooltip-list{
+  text-align: left;
+  list-style: none;
+  color: #B3B3B3;
+}
+.sumchart-tooltip-wrapper .sumchart-tooltip-list .sumchart-item-key{
+  margin-right: 1rem;
+}
+
+/* .rechats-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item-list{
+  display: none !important;
+} */
+
+/*------------- AllPage Styels -------------*/
+.overallKpiTitle{
+  margin-right: 2rem;
+}
+.overallKpiWH{
+  margin-left: 1rem;
+  font-weight: normal;
+}
+.rightContainer .ui.menu,
+.twoColContainer .ui.menu{
+  margin-bottom: 0;
+}
+.rightContainer .ui.segment,
+.twoColContainer .ui.segment{
+  margin-top: 0;
+  border-radius: 0;
+}
+.rightContainer .kpisContainer{
+  background: #F5FCFB;
+  border-radius: 0;
+  margin: 0;
+}
+
+.noBorder{
+  border: none;
+}
+.noLBorder{
+  border-left: none;
+}
+.noPadding{
+  padding: 0;
+}
+
+/*------------- CorePage Styels -------------*/
+.rightContainer .ui.segment.corelistSection {
+  margin: 0;
+}
+
+.itemSelectionHeader{
+  height: 108px;
+  margin-bottom: 2.2rem;
+  text-align: center;
+  /* margin-right: 1rem; */
+}
+.itemSelectionHeader:first-child .ui.button.itemSeleAddBtn{
+  margin-top: 1.2rem;
+}
+.itemSelectionHeader .column .itemSeleAddBtn {
+  padding-top: 14px;
+}
+.itemSelectionHeader img.ui.image{
+  margin-right: 1rem;
+  margin: 0 auto;
+}
+.itemSelectionHeader .column .itemImageTag{
+  position: relative;
+  top: -4rem;
+  color: white;
+  font-weight: bold;
+}
+.itemSelectionHeader .column .itemImageTagUnit{
+  position: relative;
+  color: #eee;
+  top: -4.2rem;
+  font-size: .7rem;
+}
+.itemSelectionHeader .column .itemImageName{
+  position: relative;
+  top: -3rem;
+  font-size: .6rem;
+}
+@media (max-width: 1000px) {
+  .itemSelectionHeader{
+    margin-bottom: 1.6rem;
+  }
+  .itemSelectionHeader .column .itemImageTag{
+    top: -3rem;
+  }
+  .itemSelectionHeader .column .itemImageTagUnit{
+    display: none;
+  }
+  .itemSelectionHeader .column .itemImageName{
+    top: -1.6rem;
+  }
+}
+
+/* Floating Label - Remove Button  */
+.itemSelectionHeader .ui.floating.label {
+    top: -.2em;
+    left: 80%;
+}
+
+/*------------- Individual Page Styels -------------*/
+.ui.tiny.image.tableItemImg{
+   width: 3.6rem;
+}
+
+.twoColContainer .itemListSection .column{
+  padiing: 0;
+}
+.twoColContainer{
+  height: 100%;
+}
+.twoColContainer img{
+  margin: 0;
+}
+.twoColContainer>.ui.grid{
+  margin: 0;
+}
+.twoColContainer>.ui.grid>.itemListSection{
+  padding: 0;
+  height: calc(100vh - 52px);
+}
+.twoColContainer>.ui.grid>.itemListSection>.column{
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+.twoColContainer .itemListSection .ui.tiny.header .sub.header{
+  font-size: .7rem;
+  padding-top: .25rem;
+}
+
+.twoColContainer .itemDetailSection .itemKPIContainer{
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.twoColContainer .itemDetailSection .itemKPIContainer .ui.header{
+  margin: 1rem;
+  max-width: 8rem;
+}
+.twoColContainer .itemDetailSection .itemKPIContainer .sub.header{
+  margin-top: .6rem;
+  max-width: 6rem;
+  font-size: 1rem;
+}
+.twoColContainer .itemDetailSection #itemSectionBg{
+  background: url('../../img/cookieBanner@2x.png');
+  background-size: cover;
+}
+
+/* .overallKpi{
+  background: black;
+} */
+.itemDetailSection .segment{
+  padding: 2rem 2rem 1rem 2rem;
+}
+.itemDetailSection .segment .overallKpiTitle{
+  padding-bottom: 1rem;
+}
+.itemDetailSection .segment .overallKpiIcon{
+  margin-right: 1rem;
+}
+
+.twoColContainer{
+
+}

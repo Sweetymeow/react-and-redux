@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  display: flex;
+  background-color: #222;
+  height: 5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100%;
+  float: left;
+}
+
+.flex-spacer{
+  width: 60%;
+}
+
+.ui.button.App-Header-Btn{
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App>.fullHeight{
+  height: 100%;
+  margin: 0;
+}
+.App .noPadding{
+  padding: 0;
+}
+.App .ui.grid .noPadding{
+  padding: 0;
+}
+.App .ui.inverted.teal.menu, .tealBg{
+  background-color: #008283;
+}
+.App .sideBar .ui.menu .sideBarLink{
+  padding: 1.8rem 0;
+}
+
+.recharts-default-legend{
+  margin-top: 1rem;
+}

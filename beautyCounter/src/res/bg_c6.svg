@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="900px" viewBox="0 0 50 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_c6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design---Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web---Intro_exp" transform="translate(-696.000000, 0.000000)">
+            <g id="bg_c6" transform="translate(696.000000, 0.000000)">
+                <rect id="Rectangle-25-Copy-4" stroke="#FFFFFF" x="0.5" y="0.5" width="49" height="899"></rect>
+                <g id="Mug" transform="translate(14.000000, 35.000000)" stroke="#4A4A4A">
+                    <polygon id="Path-6" points="0.357984804 0.690066262 17.6722192 0.690066262 14.4541398 17.144205 3.37352662 17.144205"></polygon>
+                    <path d="M17.3655055,3.47111928 C20.779508,3.43425018 22.4865092,4.5941064 22.4865092,6.95068794 C22.4865092,9.30726948 20.1704077,11.0817374 15.5382046,12.2740916" id="Path-7"></path>
+                    <path d="M16.8919573,5.38778769 C19.3380781,5.16011648 20.5611385,5.71547346 20.5611385,7.05385862 C20.5611385,8.39224378 19.040759,9.37429091 16,10" id="Path-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

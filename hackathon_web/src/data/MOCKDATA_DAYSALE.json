@@ -1,0 +1,142 @@
+[
+  {
+    "ITEM_ID": 1,
+    "ITEM_DESC": "Versatainer Nc - 888",
+    "UNIT_THIS": 66,
+    "REVENUE_LAST": 542,
+    "REVENUE_THIS": 179
+  },
+  {
+    "ITEM_ID": 2,
+    "ITEM_DESC": "Dried Figs",
+    "UNIT_THIS": 107,
+    "REVENUE_LAST": 837,
+    "REVENUE_THIS": 1217
+  },
+  {
+    "ITEM_ID": 3,
+    "ITEM_DESC": "Beans - Kidney, Canned",
+    "UNIT_THIS": 92,
+    "REVENUE_LAST": 431,
+    "REVENUE_THIS": 1672
+  },
+  {
+    "ITEM_ID": 4,
+    "ITEM_DESC": "Pork - Bones",
+    "UNIT_THIS": 131,
+    "REVENUE_LAST": 1020,
+    "REVENUE_THIS": 433
+  },
+  {
+    "ITEM_ID": 5,
+    "ITEM_DESC": "Dill Weed - Fresh",
+    "UNIT_THIS": 61,
+    "REVENUE_LAST": 576,
+    "REVENUE_THIS": 65
+  },
+  {
+    "ITEM_ID": 6,
+    "ITEM_DESC": "Bar - Sweet And Salty Chocolate",
+    "UNIT_THIS": 156,
+    "REVENUE_LAST": 41,
+    "REVENUE_THIS": 1844
+  },
+  {
+    "ITEM_ID": 7,
+    "ITEM_DESC": "Wine - Coteaux Du Tricastin Ac",
+    "UNIT_THIS": 147,
+    "REVENUE_LAST": 1906,
+    "REVENUE_THIS": 45
+  },
+  {
+    "ITEM_ID": 8,
+    "ITEM_DESC": "Yeast Dry - Fermipan",
+    "UNIT_THIS": 156,
+    "REVENUE_LAST": 698,
+    "REVENUE_THIS": 105
+  },
+  {
+    "ITEM_ID": 9,
+    "ITEM_DESC": "Coffee - Colombian, Portioned",
+    "UNIT_THIS": 76,
+    "REVENUE_LAST": 1466,
+    "REVENUE_THIS": 251
+  },
+  {
+    "ITEM_ID": 10,
+    "ITEM_DESC": "Venison - Racks Frenched",
+    "UNIT_THIS": 108,
+    "REVENUE_LAST": 1534,
+    "REVENUE_THIS": 464
+  },
+  {
+    "ITEM_ID": 11,
+    "ITEM_DESC": "Garbage Bag - Clear",
+    "UNIT_THIS": 146,
+    "REVENUE_LAST": 887,
+    "REVENUE_THIS": 965
+  },
+  {
+    "ITEM_ID": 12,
+    "ITEM_DESC": "Pheasants - Whole",
+    "UNIT_THIS": 165,
+    "REVENUE_LAST": 579,
+    "REVENUE_THIS": 1248
+  },
+  {
+    "ITEM_ID": 13,
+    "ITEM_DESC": "Sauce - Soya, Dark",
+    "UNIT_THIS": 139,
+    "REVENUE_LAST": 757,
+    "REVENUE_THIS": 1007
+  },
+  {
+    "ITEM_ID": 14,
+    "ITEM_DESC": "Pasta - Linguini, Dry",
+    "UNIT_THIS": 47,
+    "REVENUE_LAST": 431,
+    "REVENUE_THIS": 146
+  },
+  {
+    "ITEM_ID": 15,
+    "ITEM_DESC": "Beans - Fine",
+    "UNIT_THIS": 174,
+    "REVENUE_LAST": 213,
+    "REVENUE_THIS": 149
+  },
+  {
+    "ITEM_ID": 16,
+    "ITEM_DESC": "Brandy - Orange, Mc Guiness",
+    "UNIT_THIS": 61,
+    "REVENUE_LAST": 1900,
+    "REVENUE_THIS": 407
+  },
+  {
+    "ITEM_ID": 17,
+    "ITEM_DESC": "Mousse - Passion Fruit",
+    "UNIT_THIS": 49,
+    "REVENUE_LAST": 1717,
+    "REVENUE_THIS": 1688
+  },
+  {
+    "ITEM_ID": 18,
+    "ITEM_DESC": "Syrup - Monin, Swiss Choclate",
+    "UNIT_THIS": 93,
+    "REVENUE_LAST": 393,
+    "REVENUE_THIS": 688
+  },
+  {
+    "ITEM_ID": 19,
+    "ITEM_DESC": "Beef - Tenderlion, Center Cut",
+    "UNIT_THIS": 154,
+    "REVENUE_LAST": 1332,
+    "REVENUE_THIS": 1967
+  },
+  {
+    "ITEM_ID": 20,
+    "ITEM_DESC": "Table Cloth 54x72 White",
+    "UNIT_THIS": 76,
+    "REVENUE_LAST": 41,
+    "REVENUE_THIS": 280
+  }
+]

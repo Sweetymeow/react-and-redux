@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="900px" viewBox="0 0 51 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_c2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design---Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web---Intro_exp" transform="translate(-144.000000, 0.000000)">
+            <g id="bg_c2" transform="translate(144.800000, 0.000000)">
+                <rect id="Rectangle-25" stroke="#FFFFFF" x="0.5" y="0.5" width="49" height="899"></rect>
+                <g id="Group-11" transform="translate(11.000000, 30.000000)">
+                    <g id="Sticker" transform="translate(6.200000, 144.000000)" stroke="#4A4A4A">
+                        <path d="M9.13603897,0.5 L3,0.5 C1.61928813,0.5 0.5,1.61928813 0.5,3 L0.5,13 C0.5,14.3807119 1.61928813,15.5 3,15.5 L13,15.5 C14.3807119,15.5 15.5,14.3807119 15.5,13 L15.5,6.86396103 L9.13603897,0.5 Z" id="Combined-Shape"></path>
+                        <polyline id="Path-4" points="9.26549213 0.890011401 9.26549213 7.11760743 15.4019139 7.11760743"></polyline>
+                    </g>
+                    <g id="Camera" transform="translate(3.200000, 278.000000)" stroke="#4A4A4A">
+                        <rect id="Rectangle-8" x="0.5" y="2.5" width="21" height="14" rx="3"></rect>
+                        <circle id="Oval-3" cx="12.5" cy="9.5" r="4.5"></circle>
+                        <rect id="Rectangle-9" x="5.5" y="0.5" width="3" height="2"></rect>
+                        <rect id="Rectangle-10" x="3.5" y="6.5" width="2" height="3"></rect>
+                    </g>
+                    <g id="Ai" transform="translate(5.200000, 412.000000)">
+                        <rect id="Rectangle-12" stroke="#4A4A4A" x="0.5" y="1.5" width="17" height="17" rx="3"></rect>
+                        <text font-family="BentonSans-Regular, BentonSans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="3" y="14">Ai</tspan>
+                        </text>
+                    </g>
+                    <g id="Talk" transform="translate(2.200000, 551.000000)" stroke="#4A4A4A">
+                        <path d="M7.02502223,12.5499809 L10,10 L6.13193315,10 C6.0452378,9.51308601 6,9.01182593 6,8.5 C6,3.80557963 9.80557963,0 14.5,0 C19.1944204,0 23,3.80557963 23,8.5 C23,13.1944204 19.1944204,17 14.5,17 C11.2719268,17 8.46414129,15.2005341 7.02502223,12.5499809 Z" id="Combined-Shape"></path>
+                        <path d="M3.42145649,12.9214565 C4.80216837,12.9214565 5.92145649,11.8021684 5.92145649,10.4214565" id="Oval-7" stroke-linecap="round" transform="translate(4.671456, 11.671456) scale(-1, 1) rotate(-26.000000) translate(-4.671456, -11.671456) "></path>
+                        <path d="M0.879229266,10.5930653 C0.879229266,12.584643 2.49372205,14.1991358 4.48529983,14.1991358" id="Oval-8" stroke-linecap="round" transform="translate(2.682265, 12.396101) rotate(25.000000) translate(-2.682265, -12.396101) "></path>
+                        <circle id="Oval-9" cx="13.5" cy="5.5" r="1.5"></circle>
+                    </g>
+                    <g id="Group-7" transform="translate(0.200000, 817.000000)" stroke="#4A4A4A">
+                        <rect id="Rectangle-15" x="0.5" y="0.5" width="26" height="17" rx="3"></rect>
+                        <rect id="Rectangle-16" x="2.5" y="2.5" width="22" height="13"></rect>
+                        <rect id="Rectangle-17" x="11.5" y="17.5" width="3" height="3"></rect>
+                        <rect id="Rectangle-18" x="6.5" y="20.5" width="13" height="1"></rect>
+                    </g>
+                    <g id="Dribbble" transform="translate(5.200000, 689.000000)" stroke="#4A4A4A">
+                        <rect id="Rectangle-12" x="0.5" y="0.5" width="17" height="17" rx="3"></rect>
+                        <path d="M4.29245485,0.741222414 C10.8699992,6.26188463 14.5958056,11.767703 15.469874,17.2586775" id="Path-13"></path>
+                        <path d="M15.6022614,0.857673422 C10.3130074,5.16734457 5.36720351,7.67631804 0.764849617,8.38459383" id="Path-14"></path>
+                        <path d="M17.3571246,7.29628265 C9.23517858,8.73708744 4.46407994,12.155145 3.04382871,17.5504554" id="Path-15"></path>
+                    </g>
+                    <g id="Idea" transform="translate(4.200000, 0.000000)" stroke="#4A4A4A">
+                        <path d="M4.12399283,21 C1.66457529,19.6352711 0,17.0120267 0,14 C0,9.581722 3.581722,6 8,6 C12.418278,6 16,9.581722 16,14 C16,17.0120267 14.3354247,19.6352711 11.8760072,21 L4.12399283,21 Z" id="Combined-Shape"></path>
+                        <path d="M11.5,21.5 L4.5,21.5 L4.5,26 C4.5,26.8284271 5.17157288,27.5 6,27.5 L10,27.5 C10.8284271,27.5 11.5,26.8284271 11.5,26 L11.5,21.5 Z" id="Combined-Shape"></path>
+                        <path d="M4.30160436,23.3344718 L11.4108047,23.3344718" id="Path-17"></path>
+                        <path d="M4,25 L11.1092003,25" id="Path-17"></path>
+                        <path d="M5.45317836,21.0715866 C9.21619732,17.0233751 10.8343271,13.8004599 10.3075678,11.4028408 C9.51742874,7.8064123 5.45317836,8.45605081 5.45317836,12.6047298 C5.45317836,15.3705158 7.07130816,18.1928014 10.3075678,21.0715866 L5.45317836,21.0715866 Z" id="Path-18"></path>
+                        <g id="Group-2" transform="translate(13.500000, 4.500000) rotate(29.000000) translate(-13.500000, -4.500000) translate(8.000000, 3.000000)" stroke-linecap="round">
+                            <path d="M5.48278344,-5.68434189e-14 L5.48278344,2.12771946" id="Path-19"></path>
+                            <path d="M9.96556689,1 L9,2.56360403" id="Path-20"></path>
+                            <path d="M1.96556689,1 L1,2.56360403" id="Path-20" transform="translate(1.482783, 1.781802) scale(-1, 1) translate(-1.482783, -1.781802) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

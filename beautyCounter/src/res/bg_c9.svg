@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="900px" viewBox="0 0 51 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_c9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design---Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web---Intro_exp" transform="translate(-1247.000000, 0.000000)">
+            <g id="bg_c9" transform="translate(1247.200000, 0.000000)">
+                <rect id="Rectangle-25-Copy-8" stroke="#FFFFFF" x="0.5" y="0.5" width="49" height="899"></rect>
+                <g id="Note" transform="translate(17.000000, 169.000000)" stroke="#4A4A4A">
+                    <rect id="Rectangle-11" x="0.5" y="0.5" width="15" height="17" rx="3"></rect>
+                    <path d="M3.5,4.5 L12.5,4.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M3.5,7.5 L12.5,7.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M3.5,10.5 L12.5,10.5" id="Line" stroke-linecap="square"></path>
+                </g>
+                <g id="Ai" transform="translate(16.000000, 713.000000)">
+                    <rect id="Rectangle-12" stroke="#3F3A3A" x="0.5" y="1.5" width="17" height="17" rx="3"></rect>
+                    <text id="in" font-family="BentonSans-Regular, BentonSans" font-size="12" font-weight="normal" fill="#3F3A3A">
+                        <tspan x="4" y="14">in</tspan>
+                    </text>
+                </g>
+                <g id="Sketch" transform="translate(15.000000, 303.000000)">
+                    <polygon id="Path-5" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" points="5.2737487 1.76913622 16.0867021 1.76913622 20.3258393 8.75302292 10.4215358 19.7328629 0.873884849 8.75302292"></polygon>
+                    <text id="S" font-family="BentonSans-Regular, BentonSans" font-size="11" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="7" y="13">S</tspan>
+                    </text>
+                </g>
+                <g id="Ipad" transform="translate(12.000000, 439.000000)" stroke="#4A4A4A">
+                    <rect id="Rectangle-13" x="0.5" y="0.5" width="26" height="18" rx="3"></rect>
+                    <rect id="Rectangle-14" x="2.5" y="2.5" width="19" height="14"></rect>
+                    <circle id="Oval-5" cx="24" cy="9" r="1"></circle>
+                </g>
+                <g id="Bear" transform="translate(14.000000, 574.000000)" stroke="#4A4A4A">
+                    <circle id="Oval-10" cx="11.5" cy="11.5" r="11.5"></circle>
+                    <path d="M6.85089378,7.98494183 L6.85089378,5.58679867 C7.63241933,5.74595236 8.24354992,6.01699932 8.68428556,6.39993954 C9.34538901,6.97434988 11.2242715,5.83044244 13.2372104,6.90769214 C15.2501493,7.98494183 15.8568739,9.83454176 17.3375893,9.83454176 C18.3247329,9.83454176 18.8737417,10.3030361 18.9846158,11.2400248 C17.2138695,13.1348648 15.1262686,14.0822848 12.7218132,14.0822848 C10.3173577,14.0822848 8.74458535,13.6544332 8.00349608,12.7987299" id="Path-8" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.78249116,7.86862081 C5.29530748,9.69691813 4.29485946,11.107143 3.78114711,12.0992955 C2.96496121,13.6756268 1.83300319,15.7302162 1.83300319,17.7087046" id="Path-9"></path>
+                    <path d="M12.8449719,14 C12.2547287,15.0944164 12.1327076,16.0661298 12.4789084,16.91514 C12.9982096,18.1886554 15.2332219,21.0231728 15.2332219,22.8707521" id="Path-10"></path>
+                </g>
+                <g id="Talk" transform="translate(15.000000, 31.000000)">
+                    <path d="M2.89934454,17.6745271 C1.10293271,16.3286653 0,14.506334 0,12.5 C0,8.35786438 4.70101013,5 10.5,5 C16.2989899,5 21,8.35786438 21,12.5 C21,16.6421356 16.2989899,20 10.5,20 C9.66007903,20 8.8431919,19.9295574 8.0602864,19.7964921 L1.91470871,20.9059029 L2.89934454,17.6745271 Z" id="Combined-Shape" stroke="#4A4A4A"></path>
+                    <text id="…" font-family="BentonSans-Medium, BentonSans" font-size="11" font-weight="400" fill="#4A4A4A">
+                        <tspan x="6" y="13">…</tspan>
+                    </text>
+                </g>
+                <g id="Phone" transform="translate(18.000000, 845.000000)" stroke="#4A4A4A">
+                    <rect id="Rectangle-4" x="0.5" y="0.5" width="13" height="23" rx="3"></rect>
+                    <rect id="Rectangle-5" x="2.5" y="3.5" width="9" height="15"></rect>
+                    <circle id="Oval-2" cx="7" cy="21" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
