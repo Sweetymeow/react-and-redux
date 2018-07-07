@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import { Divider, Image } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import '../styles/Chatbox.css';
 import BubTail from '../res/bubble_tail.svg';
 

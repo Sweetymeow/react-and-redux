@@ -8,9 +8,10 @@
   border-radius: 9px;
   background-color: #FFF;
   box-shadow: -1px 2px 28px 1px rgba(155, 155, 155, 0.35); }
-  .chatbox-container .bub-fullwidth {
-    width: 100%;
-    clear: both; }
+  .chatbox-container .bub-fullwidth:after {
+    content: "";
+    clear: both;
+    display: block; }
   .chatbox-container .bot-bubble {
     text-align: left;
     background: #f7f7f7;
@@ -27,8 +28,7 @@
       position: absolute;
       left: 0;
       bottom: -10px; }
+  .chatbox-container .imgbub-container {
+    margin: 1.4rem; }
   .chatbox-container .left-bubble {
     float: left; }
-  .chatbox-container:after {
-    content: "";
-    clear: both; }
