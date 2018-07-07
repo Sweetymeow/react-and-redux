@@ -1,7 +1,34 @@
 .chatbox-container {
   margin: 10vh auto;
-  max-width: 90vw;
+  padding: 1.4rem 2rem;
+  max-width: 80vw;
   height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
   border-radius: 9px;
-  background-color: pink;
+  background-color: #FFF;
   box-shadow: -1px 2px 28px 1px rgba(155, 155, 155, 0.35); }
+  .chatbox-container .bub-fullwidth {
+    width: 100%;
+    clear: both; }
+  .chatbox-container .bot-bubble {
+    text-align: left;
+    background: #f7f7f7;
+    max-width: 40rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 1.2rem;
+    position: relative;
+    box-shadow: -1px 2px 2px 1px rgba(155, 155, 155, 0.2);
+    margin-bottom: 1.4rem; }
+    .chatbox-container .bot-bubble p {
+      margin: 0.3rem auto;
+      font-size: 1.125rem; }
+    .chatbox-container .bot-bubble .bot-tail-left {
+      position: absolute;
+      left: 0;
+      bottom: -10px; }
+  .chatbox-container .left-bubble {
+    float: left; }
+  .chatbox-container:after {
+    content: "";
+    clear: both; }

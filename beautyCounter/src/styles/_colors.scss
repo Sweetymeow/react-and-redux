@@ -1,5 +1,27 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
 
-$background-color: #FFF;
+// Prime Colors
+$primary-color: #333;
+$white: #FFF;
+$light-gray: #BCBCBC;
+
+$chat-con-bgcolor: $white;
+$bot-bub-color: #f7f7f7;
+$user-bub-color: #1fdab0;
+
 $test-color: pink;
+
+// Size Variables
+$lg-pw: 2rem;
+$md-pw: 1.4rem;
+$sm-pw: 1rem;
+$mini-pw: .6rem;
+$text-pw: .3rem;
+
+$chat-con-max-width: 80%;
+$chat-con-radius: .8rem;
+$chat-con-shadow:  -1px 2px 28px 1px rgba(155, 155, 155, 0.35); // box-shadow
+
+$bub-text-size: 1.125rem;
+$bub-radius: 1.2rem;
+$bub-pw: .8rem 1.8rem ;
