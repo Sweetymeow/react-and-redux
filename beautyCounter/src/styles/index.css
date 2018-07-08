@@ -67,3 +67,21 @@ body {
   overflow: hidden; }
   body .root-container {
     text-align: center; }
+
+html {
+  font-size: 62.5%;
+  /* Extra small devices (phones, 600px and down) */
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* Extra large devices (large laptops and desktops, 1200px and up) */ }
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 87.5%;
+      /* 0.875 of 16px = 14px */ } }
+  @media only screen and (min-width: 768px) {
+    html {
+      font-size: 100%;
+      /*  16px */ } }
+  @media only screen and (min-width: 1200px) {
+    html {
+      font-size: 112.5%;
+      /* 1.125 of 16px = 18px */ } }

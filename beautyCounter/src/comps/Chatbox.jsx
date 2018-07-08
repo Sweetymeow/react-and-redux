@@ -3,10 +3,21 @@ import React from 'react';
 import '../styles/Chatbox.css';
 import ImgBubble from './ImgBubble';
 import TextBubble from './TextBubble';
+import BtnGroupBubble from './BtnGroupBubble';
+import FormBubble from './FormBubble';
 import Gopher from '../res/Gopher.png';
 
 const testText = "My name is Juan. && I am a UX/UI designer currently working at SAP. ";
 const testText2 = "Thanks for your interest in my portfolio!&& May I ask your purpose of visiting today? :)";
+const options = [{
+  key: 1,
+  text: "Recruiting designer",
+  val: "RECRUITER"
+}, {
+  key: 2,
+  text: "Just wander around",
+  val: "VIEWER"
+}];
 
 class Chatbox extends React.Component {
   constructor(props) {
@@ -22,10 +33,11 @@ class Chatbox extends React.Component {
     const textArr2 = testText2.split("&&");
     return (
       <section className="chatbox-container">
-        <h2>CHATBOX</h2>
         <ImgBubble imgSrc={Gopher}/>
-        <TextBubble text={textArr} />
-        <TextBubble text={textArr2} />
+        <TextBubble text={textArr} type="bot" />
+        <TextBubble text={textArr2} type="user" />
+        <BtnGroupBubble options={options} label="Choose an option" />
+        <FormBubble label="Type the Password" enableBack={true} />
       </section>);
   }
 }

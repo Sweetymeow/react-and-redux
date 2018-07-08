@@ -1,18 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import { Image } from 'semantic-ui-react';
+// import { Image } from 'semantic-ui-react';
 import '../styles/Chatbox.css';
-import BubTail from '../res/bubble_tail.svg';
 
 const TextBubble = (props) => {
-  const { text, html, bubWidth } = props;
+  const { text, html, bubWidth, type } = props;
   return (
     <div className="bub-fullwidth">
-      <div className="bot-bubble left-bubble" >
-        {text.map((item, i) => <p key={i}>{item}</p>)}
-        <Image className="bot-tail-left" src={BubTail} />
-        {/* <Divider hidden /> */}
-      </div>
+      { type !== "user" ? (
+        <div className="text-bubble left-bubble" >
+            {text.map((item, i) => <p key={i}>{item}</p>)}
+            {/* <Image className="bot-tail-left" src={BubTail} /> */}
+        </div>) : (
+        <div className="text-bubble right-bubble" >
+          {text.map((item, i) => <p key={i}>{item}</p>)}
+        </div>)
+      }
     </div>
   );
 };
@@ -20,6 +23,7 @@ const TextBubble = (props) => {
 TextBubble.propTypes = {
   text: PropTypes.array.isRequired,
   bubWidth: PropTypes.string,
+  type: PropTypes.string,
   html: PropTypes.string
 };
 

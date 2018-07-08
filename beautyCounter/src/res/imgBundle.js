@@ -15,5 +15,6 @@ import bgs2 from './bg_s2.svg';
 import bgs3 from './bg_s3.svg';
 import bgs4 from './bg_s4.svg';
 
+import downloadImg from './DownloadCV.svg';
 
-export { bgc1, bgc2, bgc3, bgc4, bgc5, bgc6, bgc7, bgc8, bgc9, bgc10, bgs0, bgs1, bgs2, bgs3, bgs4 };
+export { bgc1, bgc2, bgc3, bgc4, bgc5, bgc6, bgc7, bgc8, bgc9, bgc10, bgs0, bgs1, bgs2, bgs3, bgs4, downloadImg };

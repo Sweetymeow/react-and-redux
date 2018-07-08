@@ -18,10 +18,20 @@
       display: block;
     }
   }
+  .bub-90wid-center{
+    width: 90%;
+    text-align: center;
+    margin: 1em auto;
+  }
+  .bub-60wid-center{
+    width: 60%;
+    text-align: center;
+    margin: 1em auto;
+  }
 
-  .bot-bubble{
+  /*------------  TEXT bubble container   ------------*/
+  .text-bubble{
     text-align: left;
-    background: $bot-bub-color;
     max-width: 40rem;
     padding: $bub-pw;
     border-radius: $bub-radius;
@@ -33,19 +43,100 @@
       margin: $text-pw auto;
       font-size: $bub-text-size;
     }
-    .bot-tail-left{
-      width: auto;
-      position: absolute;
-      left: 0;
-      bottom: -10px;
-    }
+  }
+  .text-bubble.left-bubble{
+      background: $bot-bub-color;
+      &:after{
+        content: url('../res/bubble_tail.svg');
+        position: absolute;
+        left: 0;
+        bottom: -.8rem;
+      }
+  }
+  .text-bubble.right-bubble{
+      background: $user-bub-color;
+      color: $user-bub-text-color;
+
+      &:after{
+        content: url('../res/bubble_tail_R.svg');
+        // height: 2rem;
+        // width: 2rem;
+        position: absolute;
+        right: 0;
+        bottom: -.8rem;
+      }
   }
 
+  /*------------  image bubble container   ------------*/
   .imgbub-container{
     margin: $md-pw;
   }
 
+  /*------------   button group container   ------------*/
+  .btn-container{
+    .btn-group-label{
+      text-align: center;
+      color: $bot-label;
+      font-size: .8rem;
+    }
+    .btn-group{
+      .ui.primary.button{
+        background-color: $user-bub-color;
+        border-radius: 1.4rem;
+        // height: 2rem;
+        font-size: 1rem;
+        box-shadow: $bub-btn-shadow;
+
+        &:hover{
+          background-color: darken( $user-bub-color, 10% );
+        }
+      }
+    }
+  }
+
+  /*------------   general bubble styles  ------------*/
+  .input-container{
+    .input-header{
+      margin-bottom: .2rem;
+      .row{
+        padding-bottom: .6rem;
+
+        .back-button{ // border: none;
+          color: $primary-color;
+          a{
+            color: $primary-color;
+          }
+        }
+        .input-label{
+          color: $bot-label;
+        }
+      }
+    }
+    .input-action{
+      .input-field{
+        border-radius: 1rem;
+        input{
+          border-color: $mid-gray; // $primary-color;
+          border-radius: 1.4rem;
+          // width: 16rem;
+          caret-color: $primary-color;
+        }
+      }
+      .input-email-link{
+        margin-top: 1rem;
+        text-decoration: underline;
+        a{
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  /*------------   general bubble styles  ------------*/
   .left-bubble{
     float: left;
+  }
+  .right-bubble{
+    float: right;
   }
 }

@@ -7,28 +7,84 @@
   overflow-y: scroll;
   border-radius: 9px;
   background-color: #FFF;
-  box-shadow: -1px 2px 28px 1px rgba(155, 155, 155, 0.35); }
+  box-shadow: -1px 2px 28px 1px rgba(155, 155, 155, 0.35);
+  /*------------  TEXT bubble container   ------------*/
+  /*------------  image bubble container   ------------*/
+  /*------------   button group container   ------------*/
+  /*------------   general bubble styles  ------------*/
+  /*------------   general bubble styles  ------------*/ }
   .chatbox-container .bub-fullwidth:after {
     content: "";
     clear: both;
     display: block; }
-  .chatbox-container .bot-bubble {
+  .chatbox-container .bub-90wid-center {
+    width: 90%;
+    text-align: center;
+    margin: 1em auto; }
+  .chatbox-container .bub-60wid-center {
+    width: 60%;
+    text-align: center;
+    margin: 1em auto; }
+  .chatbox-container .text-bubble {
     text-align: left;
-    background: #f7f7f7;
     max-width: 40rem;
     padding: 0.8rem 1.8rem;
     border-radius: 1.2rem;
     position: relative;
     margin-bottom: 1.4rem; }
-    .chatbox-container .bot-bubble p {
-      margin: 0.3rem auto;
-      font-size: 1.125rem; }
-    .chatbox-container .bot-bubble .bot-tail-left {
-      width: auto;
+    .chatbox-container .text-bubble p {
+      margin: 0.2rem auto;
+      font-size: 1rem; }
+  .chatbox-container .text-bubble.left-bubble {
+    background: #f7f7f7; }
+    .chatbox-container .text-bubble.left-bubble:after {
+      content: url("../res/bubble_tail.svg");
       position: absolute;
       left: 0;
-      bottom: -10px; }
+      bottom: -.8rem; }
+  .chatbox-container .text-bubble.right-bubble {
+    background: #1fdab0;
+    color: #FFF; }
+    .chatbox-container .text-bubble.right-bubble:after {
+      content: url("../res/bubble_tail_R.svg");
+      position: absolute;
+      right: 0;
+      bottom: -.8rem; }
   .chatbox-container .imgbub-container {
     margin: 1.4rem; }
+  .chatbox-container .btn-container .btn-group-label {
+    text-align: center;
+    color: #d3d3d3;
+    font-size: .8rem; }
+  .chatbox-container .btn-container .btn-group .ui.primary.button {
+    background-color: #1fdab0;
+    border-radius: 1.4rem;
+    font-size: 1rem;
+    box-shadow: 0 0 6px 1px rgba(74, 74, 74, 0.3); }
+    .chatbox-container .btn-container .btn-group .ui.primary.button:hover {
+      background-color: #19ad8c; }
+  .chatbox-container .input-container .input-header {
+    margin-bottom: .2rem; }
+    .chatbox-container .input-container .input-header .row {
+      padding-bottom: .6rem; }
+      .chatbox-container .input-container .input-header .row .back-button {
+        color: #1fdab0; }
+        .chatbox-container .input-container .input-header .row .back-button a {
+          color: #1fdab0; }
+      .chatbox-container .input-container .input-header .row .input-label {
+        color: #d3d3d3; }
+  .chatbox-container .input-container .input-action .input-field {
+    border-radius: 1rem; }
+    .chatbox-container .input-container .input-action .input-field input {
+      border-color: #979797;
+      border-radius: 1.4rem;
+      caret-color: #1fdab0; }
+  .chatbox-container .input-container .input-action .input-email-link {
+    margin-top: 1rem;
+    text-decoration: underline; }
+    .chatbox-container .input-container .input-action .input-email-link a {
+      color: #1fdab0; }
   .chatbox-container .left-bubble {
     float: left; }
+  .chatbox-container .right-bubble {
+    float: right; }
