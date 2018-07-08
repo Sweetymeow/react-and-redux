@@ -10,7 +10,7 @@ const TextBubble = (props) => {
     <div className="bub-fullwidth">
       <div className="bot-bubble left-bubble" >
         {text.map((item, i) => <p key={i}>{item}</p>)}
-        <Image className="bot-tail-left" src={BubTail} size="tiny" />
+        <Image className="bot-tail-left" src={BubTail} />
         {/* <Divider hidden /> */}
       </div>
     </div>

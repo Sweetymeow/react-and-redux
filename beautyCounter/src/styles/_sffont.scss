@@ -1,69 +1,68 @@
+// https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d
+
 /*---------------------------------------------------------------------------*
  * SF UI Display
  *---------------------------------------------------------------------------*/
+
 /** Black */
 @font-face {
   font-family: "SF Display";
   font-weight: 900;
-  src: url("../fonts/SanFranciscoDisplay-Black.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Black.otf");
+}
 
 /** Bold */
 @font-face {
   font-family: "SF Display";
   font-weight: 700;
-  src: url("../fonts/SanFranciscoDisplay-Bold.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Bold.otf");
+}
 
 /** Heavy */
 @font-face {
   font-family: "SF Display";
   font-weight: 800;
-  src: url("../fonts/SanFranciscoDisplay-Heavy.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Heavy.otf");
+}
 
 /** Light */
 @font-face {
   font-family: "SF Display";
   font-weight: 200;
-  src: url("../fonts/SanFranciscoDisplay-Light.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Light.otf");
+}
 
 /** Medium */
 @font-face {
   font-family: "SF Display";
   font-weight: 500;
-  src: url("../fonts/SanFranciscoDisplay-Medium.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Medium.otf");
+}
 
 /** Regular */
 @font-face {
   font-family: "SF Display";
   font-weight: 400;
-  src: url("../fonts/SanFranciscoDisplay-Regular.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Regular.otf");
+}
 
 /** Semibold */
 @font-face {
   font-family: "SF Display";
   font-weight: 600;
-  src: url("../fonts/SanFranciscoDisplay-Semibold.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Semibold.otf");
+}
 
 /** Thin */
 @font-face {
   font-family: "SF Display";
   font-weight: 300;
-  src: url("../fonts/SanFranciscoDisplay-Thin.otf"); }
+  src: url("../fonts/SanFranciscoDisplay-Thin.otf");
+}
 
 /** Ultralight */
 @font-face {
   font-family: "SF Display";
   font-weight: 100;
-  src: url("../fonts/SanFranciscoDisplay-Ultralight.otf"); }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "SF Display", Helvetica, sans-serif;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden; }
-  body .root-container {
-    text-align: center; }
+  src: url("../fonts/SanFranciscoDisplay-Ultralight.otf");
+}

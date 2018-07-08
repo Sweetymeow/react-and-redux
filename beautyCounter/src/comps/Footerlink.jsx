@@ -1,11 +1,11 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
 // import PropTypes from 'prop-types'
-import "../styles/index.css";
+import "../styles/AnimeBackground.css";
 
 const Footerlink = () => {
   return (
-    <div className="footer-container">
+    <section className="footer-container">
       <Grid columns={4}>
         <Grid.Row>
           <Grid.Column>
@@ -22,7 +22,11 @@ const Footerlink = () => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    </div>
+      <div className="copyright-des">
+        <p>Copyright © 2018 Longjuan. All right reserved.</p>
+        <p>Special thank you to Xin Wen for the depevelopment of home page. </p>
+      </div>
+    </section>
   );
 };
 

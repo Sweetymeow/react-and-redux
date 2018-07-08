@@ -1,4 +1,4 @@
-@import 'colors';
+@import 'var';
 
 .bg-container {
   position: fixed;
@@ -38,8 +38,26 @@
 
 .footer-container{
   position: fixed;
-  bottom: 10vh;
+  bottom: 8vh;
   left: 50%;
   width: $chat-con-max-width;
   transform: translateX(-50%);
+
+  .social-link{
+    color: $footer-link-color;
+    font-family: $font-stack;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .copyright-des{
+    margin-top: 2vh;
+    text-align: center;
+    color: $footer-copyright-color;
+    p{
+      margin: 0 0 .6rem 0;
+    }
+  }
+
 }

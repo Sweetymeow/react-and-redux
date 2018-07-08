@@ -23,3 +23,22 @@
     .bg-container .animeBg-narrow .space-hodler {
       display: flex;
       flex: 5 1 50%; }
+
+.footer-container {
+  position: fixed;
+  bottom: 8vh;
+  left: 50%;
+  width: 70vw;
+  transform: translateX(-50%); }
+  .footer-container .social-link {
+    color: #3f3a3a;
+    font-family: "SF Display", Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 600; }
+  .footer-container .copyright-des {
+    margin-top: 2vh;
+    text-align: center;
+    color: #9b9b9b; }
+    .footer-container .copyright-des p {
+      margin: 0 0 .6rem 0; }

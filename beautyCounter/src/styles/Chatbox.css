@@ -24,6 +24,7 @@
       margin: 0.3rem auto;
       font-size: 1.125rem; }
     .chatbox-container .bot-bubble .bot-tail-left {
+      width: auto;
       position: absolute;
       left: 0;
       bottom: -10px; }
