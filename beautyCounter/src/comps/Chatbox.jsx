@@ -1,5 +1,4 @@
 import React from 'react';
-import { Divider, Image } from 'semantic-ui-react'
 // import PropTypes from 'prop-types';
 import '../styles/Chatbox.css';
 import ImgBubble from './ImgBubble';

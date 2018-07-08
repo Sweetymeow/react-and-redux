@@ -1,8 +1,8 @@
 .chatbox-container {
-  margin: 10vh auto;
+  margin: 8vh auto 22vh auto;
   padding: 1.4rem 2rem;
-  max-width: 80vw;
-  height: 80vh;
+  max-width: 76vw;
+  height: 70vh;
   overflow-x: hidden;
   overflow-y: scroll;
   border-radius: 9px;
@@ -19,7 +19,6 @@
     padding: 0.8rem 1.8rem;
     border-radius: 1.2rem;
     position: relative;
-    box-shadow: -1px 2px 2px 1px rgba(155, 155, 155, 0.2);
     margin-bottom: 1.4rem; }
     .chatbox-container .bot-bubble p {
       margin: 0.3rem auto;

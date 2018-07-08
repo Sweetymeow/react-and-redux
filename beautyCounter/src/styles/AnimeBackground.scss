@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  
+
   .animeBg {
     position: relative;
     display: flex;
@@ -13,6 +13,22 @@
 
     img {
       flex: 1 1 10%;
+    }
+  }
+  .animeBg-narrow {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 5vw;
+    justify-content: space-around;
+
+    img {
+      flex: 1 1 10%;
+    }
+    .space-hodler {
+      display: flex;
+      flex: 5 1 50%;
     }
   }
 }

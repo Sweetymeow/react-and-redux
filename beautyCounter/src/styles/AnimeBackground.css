@@ -11,3 +11,15 @@
     height: 100%; }
     .bg-container .animeBg img {
       flex: 1 1 10%; }
+  .bg-container .animeBg-narrow {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 5vw;
+    justify-content: space-around; }
+    .bg-container .animeBg-narrow img {
+      flex: 1 1 10%; }
+    .bg-container .animeBg-narrow .space-hodler {
+      display: flex;
+      flex: 5 1 50%; }
