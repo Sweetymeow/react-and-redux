@@ -1,3 +1,5 @@
+@import 'colors';
+
 .bg-container {
   position: fixed;
   width: 100%;
@@ -15,6 +17,7 @@
       flex: 1 1 10%;
     }
   }
+
   .animeBg-narrow {
     position: fixed;
     display: flex;
@@ -31,4 +34,12 @@
       flex: 5 1 50%;
     }
   }
+}
+
+.footer-container{
+  position: fixed;
+  bottom: 10vh;
+  left: 50%;
+  width: $chat-con-max-width;
+  transform: translateX(-50%);
 }
