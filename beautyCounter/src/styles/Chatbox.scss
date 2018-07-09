@@ -130,6 +130,35 @@
         }
       }
     }
+    .input-request-form{
+      border: 1px solid $primary-color;
+      margin-top: $sm-pw;
+      padding: $sm-pw;
+      border-radius: $mini-pw;
+      // background-color: $bot-bub-color;
+      .form-input{
+        label{
+          text-align: left;
+          padding: 0 0 $mini-pw $sm-pw;
+          color: $primary-color;
+        }
+        input[type="text"], textarea{
+          background-color: $bot-bub-color;
+          color: $bot-bub-text-color;
+          &:focus {
+              outline: none !important;
+              border:1px solid $primary-color;
+              box-shadow: $bub-btn-shadow;
+          }
+        }
+        textarea{
+          height: 10rem;
+        }
+      }
+      .ui.button{
+        border-radius: $md-pw;
+      }
+    }
   }
 
   /*------------   general bubble styles  ------------*/

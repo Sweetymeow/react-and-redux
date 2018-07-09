@@ -84,6 +84,26 @@
     text-decoration: underline; }
     .chatbox-container .input-container .input-action .input-email-link a {
       color: #1fdab0; }
+  .chatbox-container .input-container .input-request-form {
+    border: 1px solid #1fdab0;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem; }
+    .chatbox-container .input-container .input-request-form .form-input label {
+      text-align: left;
+      padding: 0 0 0.6rem 1rem;
+      color: #1fdab0; }
+    .chatbox-container .input-container .input-request-form .form-input input[type="text"], .chatbox-container .input-container .input-request-form .form-input textarea {
+      background-color: #f7f7f7;
+      color: #9b9b9b; }
+      .chatbox-container .input-container .input-request-form .form-input input[type="text"]:focus, .chatbox-container .input-container .input-request-form .form-input textarea:focus {
+        outline: none !important;
+        border: 1px solid #1fdab0;
+        box-shadow: 0 0 6px 1px rgba(74, 74, 74, 0.3); }
+    .chatbox-container .input-container .input-request-form .form-input textarea {
+      height: 10rem; }
+    .chatbox-container .input-container .input-request-form .ui.button {
+      border-radius: 1.4rem; }
   .chatbox-container .left-bubble {
     float: left; }
   .chatbox-container .right-bubble {

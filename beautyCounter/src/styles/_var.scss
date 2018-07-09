@@ -3,11 +3,14 @@ $font-stack:  "SF Display", Helvetica, sans-serif;
 // Prime Colors
 $primary-color: #1fdab0;
 $white: #FFF;
+$dark-gray: #9b9b9b;
 $mid-gray: #979797;
 $light-gray: #BCBCBC;
+$bg-gray: #f7f7f7;
 
 $chat-con-bgcolor: $white;
-$bot-bub-color: #f7f7f7;
+$bot-bub-color: $bg-gray;
+$bot-bub-text-color: $dark-gray;
 $user-bub-color: $primary-color;
 $user-bub-text-color: $white;
 $bot-label: #d3d3d3;

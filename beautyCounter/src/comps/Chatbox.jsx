@@ -4,7 +4,7 @@ import '../styles/Chatbox.css';
 import ImgBubble from './ImgBubble';
 import TextBubble from './TextBubble';
 import BtnGroupBubble from './BtnGroupBubble';
-import FormBubble from './FormBubble';
+import PWInput from './PWInput';
 import Gopher from '../res/Gopher.png';
 
 const testText = "My name is Juan. && I am a UX/UI designer currently working at SAP. ";
@@ -37,7 +37,7 @@ class Chatbox extends React.Component {
         <TextBubble text={textArr} type="bot" />
         <TextBubble text={textArr2} type="user" />
         <BtnGroupBubble options={options} label="Choose an option" />
-        <FormBubble label="Type the Password" enableBack={true} />
+        <PWInput label="Type the Password" enableBack={true} />
       </section>);
   }
 }
